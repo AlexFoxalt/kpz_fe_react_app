@@ -7,4 +7,4 @@ export const TanStackRouterDevelopmentTools = isProduction
 			import("@tanstack/router-devtools").then((result) => ({
 				default: result.TanStackRouterDevtools,
 			}))
-	  );
+		);
